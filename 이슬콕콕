@@ -1,12 +1,1053 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ko"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>맘카페 “피부미백, 주름개선” 효과 난리난 글루타치온, 정말 효과가 있을까? (+실제 경험담)</title>
+
+    <script type="text/javascript" src="/common/js/jquery.js"></script>
+    <script type="text/javascript" src="/common/js/common.js"></script>
+
+    <link rel="stylesheet" href="./css/common.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        body{font-family: "Pretendard";}
+        p{font-size: 17px;}
+
+        .c_r{color: #F12F22;}
+        .c_b{color: #0076c8;}
+        .c_g{color: #858585;}
+        .c_w{color: #fff;}
+        .c_grn{color: #30b478;}
+        .h_r{background-color: #F12F22;}
+        .h_y{background-color: #FFF599;}
+        .h_p{background-color: #ffb39b;}
+        .h_b{background-color: #0076c8;}
+        .f_size_s{font-size: 15px;}
+        .f_size_r{font-size: 17px;}
+        .f_size_b{font-size: 22px;}
+        .f_size_l{font-size: 26px;}
+        .width_40{width: 40%;}
+        .width_60{width: 60%;}
+        .width_80{width: 80%;}
+        .con_wrap b{font-weight: 600;}
+        .sub_tit{color: #898989; font-size: 15px;}
+
+
+        .tit_box{display: inline-block; max-width: 534px; width: 100%; margin-bottom: 42px; padding: 45px 33px 7px; border: 4px solid #d5d5d5; border-bottom-width: 0; background-color: #fff; vertical-align: top; position: relative;}
+        .tit_box:after { content: ''; position: absolute; top: 100%; left: -4px; right: 38px; height: 38px; border-style: solid; border-color: inherit; border-width: 0 0 4px 4px; background-color: inherit;}
+        .tit_box:before { content: ''; position: absolute; right: -4px; top: 100%; display: inline-block; width: 42px; height: 42px; background-position: -208px -93px; background-image: url(./img/sp_component.png); background-repeat: no-repeat; -webkit-background-size: 391px 362px; background-size: 391px 362px;}
+        .corner{position: relative; padding: 32px 36px;}
+        .corner:before{content: ''; position: absolute; width: 26px; height: 26px; border: solid #4a4a4a; top: 0; left: 0; border-width: 6px 0 0 6px;}
+        .corner:after{content: ''; position: absolute; width: 26px; height: 26px; border: solid #4a4a4a; right: 0; bottom: 0; border-width: 0 6px 6px 0;}
+
+        /* 가로 선 - hr_bar */
+        .hr_bar_s{width: 30%; height: 1px; background: #dfdfdf; margin: 40px auto;}
+        .hr_bar_l{width: 100%; height: 1px; background: #dfdfdf; margin: 40px auto;}
+        .hr_bar_h{width: 2px; height: 80px; background: #dfdfdf; margin: 40px auto;}
+
+
+
+        .warning{font-weight: 500; color:red; text-align: left;}
+
+        .se_hr{height: 1px; color: #ddd; margin: 0 auto; padding-top: 10%; padding-bottom: 15%; opacity: 30%;}
+        .se_hr2{width: 220px;height: 1px; color: #ddd; margin: 0 auto; padding-top: 10%; padding-bottom: 10%; opacity: 30%;}
+        .se_hr3{width: 60px;height: 1px; color: #ddd; margin: 0 auto; padding-top: 10%; padding-bottom: 10%;}
+
+        .index_box{border-left:solid #000 5px; padding-left: 15px; margin-top: 5%;}
+        .index_box2{border-left:solid #515151 5px; padding-left: 15px; margin-top: 5%;}
+
+        .hr_bar{display: inline-block; width: 100%; height: 1px; background: #ddd; margin-bottom: 6px;}
+        .hr_bar_s{display: inline-block; width: 20%; height: 1px; background: #ddd; margin-bottom: 6px;}
+
+        .top_bar{width: 100%; height: 50px; position: fixed; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; padding: 0 18px; font-weight: 500; font-size: 14px; color: #444; background: #fff;z-index: 1;}
+        .logo{font-size: 18px; font-weight: 400;}
+        .logo_cast{font-weight: 700; font-size: 18px; margin-right: 4px; color: #2db400;}
+        @media (max-width:360px) {
+            .top_bar{padding: 0 8px; letter-spacing: -1px; height: 44px;}
+            .logo{font-size: 17px;}
+        }
+
+        .body_wrap{width: 100%; max-width: 640px; padding-top: 50px; margin: 0 auto; font-size: 17px;}
+        .title_wrap{padding: 10px 10px 30px 10px; margin-bottom: 30px; border-bottom: 1px solid #ddd;background-image: url(./img/top.png); background-position: 50% 50%; background-size:cover;}
+        .title_wrap > div{ transition: all 0.8s;}
+        .title{font-size: 34px; padding: 20px 0; letter-spacing: -1px; color: #fff;text-align: center; word-break: keep-all;}
+        .tit_sub{ color: #fff; font-size: 14px; margin-bottom: 30px;}
+        .date{font-size: 13px; font-weight: 300; color: #fff;}
+        .tit_mid{display: none;}
+        .tit_sm{display: none;}
+        .user_name{color: #fff;}
+
+        @media (max-width:500px) {
+            .title{font-size: 32px; letter-spacing: -1.2px;}
+        }
+        @media (max-width:460px) {
+            .title{font-size: 29px;}
+        }
+        @media (max-width:420px) {
+            .title{font-size: 28px;}
+        }
+
+
+
+        .con_wrap{text-align: left; margin: 0 10px;}
+        /* .con_wrap *{font-family: "Nanum Myeongjo",serif, "Dotum", arial, Tahoma, sans-serif;} */
+        .con_wrap .label_tit{font-family: "Pretendard";}
+        .con_wrap > p{padding: 40px 0; line-height: 35px;}
+        .list_txt{position: relative; text-align: left; border-left: 6px solid #555; padding: 0 0 0 15px !important; margin: 20px 0; font-size: 16px; margin-left: -5px; letter-spacing: -.6px; line-height: 28px; word-break: break-all;}
+        .con_img{ line-height: 18px !important;}
+        .txt_title{font-size: 27px; font-weight: 600; background: #fff7c9; margin: 50px 15px 20px; padding: 20px !important; line-height: 38px !important;}
+
+        .none_link{color: #6d9cca;}
+        .none_link:hover{color: #6d9cca;}
+
+        .ver_mobile *{box-sizing: border-box !important;}
+        
+
+        .list_no{padding-left: 18px;}
+        .list_no::before{content: '1)'; position: absolute; left: 15px;}
+        .list_no:nth-child(2)::before{content: '2)';}
+        .list_no:nth-child(3)::before{content: '3)';}
+        .list_no:nth-child(4)::before{content: '4)';}
+        .list_no:nth-child(5)::before{content: '5)';}
+        .list_no:nth-child(6)::before{content: '6)';}
+        .list_no:nth-child(7)::before{content: '7)';}
+        .list_no:nth-child(8)::before{content: '8)';}
+        .list_no:nth-child(9)::before{content: '9)';}
+        .list_no:nth-child(10)::before{content: '10)';}
+        .list_no:nth-child(11)::before{content: '11)';}
+        .list_no:nth-child(12)::before{content: '12)';}
+
+
+        .blank{margin: 7% 0;}
+        .anno{margin-top: 5px; font-size: 15px; color: #777;}
+        @media (max-width:360px) {
+            .con_wrap>p{letter-spacing: -0.6px;}
+            .con_img{padding: 15px !important;}
+        }
+
+
+        /* 상품 */
+        .se_oglink {
+            width: 95%;
+            position: relative;
+            display: block;
+            margin: 5% auto;
+        }
+        .se_sectionArea {
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .se_oglink .se_viewArea:before {
+            height: 0;
+            border-bottom: 0;
+            bottom: auto;
+            z-index: 1;
+        }
+        .se_oglink.og_bSize .se_og_box {
+            display: block;
+        }
+
+        .se_oglink .se_og_box {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,.12);
+        }
+        .se_oglink .se_viewArea:after {
+            height: 0;
+            border-bottom: 0;
+            top: auto;
+            z-index: 1;
+        }
+        .se_oglink .se_viewArea:after, .se_oglink .se_viewArea:before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            content: '';
+            clear: both;
+        }
+        .se_oglink .se_og_box:before {
+            width: 0;
+            border-right: 0;
+            right: auto;
+            z-index: 1;
+        }
+        .se_oglink.og_bSize .se_og_txt {
+            padding: 21px 20px;
+        }
+        .se_og_txt {
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .se_og_txt {
+            text-align: left;
+            vertical-align: middle;
+        }
+        .se_og_tit {
+            font-size: 16px;
+            color: #444;
+            font-weight: 600;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+        }
+        .se_og_desc {
+            margin-top: 9px;
+            font-size: 17px;
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            word-break: break-all;
+            color: #666;
+        }
+
+        .se_og_cp {
+            font-weight: 400;
+            color: #608cba;
+        }
+
+        .se_og_box:after {
+            width: 0;
+            z-index: 1;
+        }
+        /* 뉴스커버 */
+        .wrap{max-width: 640px !important;}
+        .wrap>div{max-width: 640px !important;}
+
+        /* 댓글 프로필 */
+        .u_cbox_thumb_wrap {
+            display: block;
+            position: relative;
+            width: 35px;
+            height: 35px; 
+            border-radius: 70%;
+            overflow: hidden;
+        }
+        .u_cbox_img_profile {
+            vertical-align: top;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .u_cbox_thumb_mask {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-position: 0 0;
+        }
+
+        /* 댓글 더보기 */
+        .u_cbox_paginate {
+            position: relative;
+            min-height: 22px;
+            text-align: center;
+        }
+        .u_cbox_paginate .u_cbox_btn_more {
+            display: block;
+            padding: 13px 0 12px;
+            border-bottom: 1px solid #e1e1e1;
+            font-size: 13px;
+            color: #333;
+            line-height: 23px;
+        }
+        .u_cbox_paginate .u_cbox_more_wrap {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .u_cbox_paginate .u_cbox_more_wrap .u_cbox_page_more {
+            float: left;
+        }
+        .u_cbox_paginate .u_cbox_more_wrap .u_cbox_ico_more {
+            display: inline-block;
+            width: 11px;
+            height: 6px;
+            margin: 8px 0 0 15px;
+            background-position: -64px -125px;
+            vertical-align: top;
+        }
+        .u_cbox_ico_more {transform: rotate(90deg);font-size: 14px;}
+        .u_cbox_paginate .u_cbox_more_wrap:after {
+            display: table;
+            content: '';
+        }
+
+        .aa *{font-family: Nanum Myeongjo !important;}
+
+        .label_tit { position: relative; display: block; padding-left: 20px; margin: 5px 0px 5px; font-size: 1.5em; } 
+        .label_tit::before { content: ''; display: block; position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: #000; } 
+        .con_tit {font-size: 18px;position: relative;padding-bottom: 0;margin-bottom: 25px;padding-left: 15px !important;}
+        .con_tit::after {position: absolute;content: '';width: 8px;background: #444;left: -4px;top:40px;bottom: 40px;}
+
+
+        /* profile */
+        .profile{background: #fafafa; border-top: 1px solid #d7d7d7; border-bottom: 1px solid #d7d7d7; padding: 25px;}
+        .pf_main{display: flex; align-items: center;}
+        .pf_name{line-height: 25px; padding-top: 5px;}
+        .pf_tag{display: flex; flex-wrap: wrap; padding-top: 15px;}
+        .tag_box{border: 1px solid #d7d7d7; background: #fff; padding: 5px 12px; margin: 7px 10px 0 0; border-radius: 4px; font-size: 16px; color: #777; font-weight: 600;}
+        /* profile */
+
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                $(".title_wrap > div").css("opacity","0.6");
+                var scrTop = $(window).scrollTop();
+                if(scrTop == 0){
+                    $(".title_wrap > div").css("opacity","1");
+                }
+            });
+        });
+    </script>
+<style>
+    @font-face {
+      font-family: 'Didact Gothic';
+      src:
+          url(chrome-extension://ignghjdjmgleolgiaifohmdlnbjklkij/assets/fonts/didactgothic.woff2) format('woff2');
+  
+      font-weight: normal;
+      font-style: normal;
+  }
+  </style></head>
 <body>
-    Hello World
+    <a href="" target="_blank">
+        <div class="top_bar">
+            <div class="logo"><span class="logo_cast">N</span>캐스트</div>
+            <div class="top_add">▷ 더 보기</div>
+        </div>
+    </a>
+    <div class="body_wrap">
+        <div class="title_wrap">
+                <div class="title" style="opacity: 1;">
+                    <p class="tit_sub"><span style="display: inline-block; width: 40px; border-radius: 20px; text-align: center; background: #fff; color: #555; font-size: 12px; padding: 2px 0; margin-right: 7px;">시리즈</span>이너뷰티 꿀팁</p>
+                    <span>맘카페 “피부미백, 주름개선” 효과 난리난 글루타치온, 정말 효과가 있을까? (+실제 경험담)</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; opacity: 1;">
+                    <div class="user_icon"><img src="./img/user.png" alt="" style="width: 45px;"></div>
+                    <div class="user" style="display: flex; flex-direction: column; align-items: center; margin-left: 10px;">
+                        <div class="user_name">청담동 피부미인</div>
+                        <div class="date">2024-08-07 11:53 | 126,719 읽음</div>
+                    </div>
+                </div>
+                
+        </div>
+        <div class="con_wrap">
+            <p class="c_r">
+                <b class="f_size_l">
+                    ※ 일부 비양심적인 글루타치온<br>업체들에게 경고합니다.
+                </b><br>
+                <b class="f_size_b">
+                    한 번만 더 신고했다간<br>저도 더 안 참습니다.
+                </b>
+            </p>
+            <p>
+                제가 제 시간과 돈 투자해서 알아낸 정보를<br>그저 <b>있는 그대로</b> 적었을 뿐인데,<br><b>도대체 뭐가 잘못된 건가요???</b>
+            </p>
+            <p>
+                아무리 신고 넣어도 저는 <b>계속 다시 올립니다.</b><br><b class="c_r f_size_b">신고 그만하세요.</b>
+            </p>
+            <p>
+                <img src="./img/body01.png" alt="" width="100%">
+            </p>
+            <p>
+                제품과 서비스 개선할 생각을 하셔야지..<br><b>과장 광고</b>하며 사람들 속이는 행위는<br>이제 그만 좀 하시길!
+            </p>
+            <p>
+                <b class="c_r">원가 3~4천원</b>짜리 제품을 각종 현란한 말들로<br><b>가격 뻥튀기해가며</b> 좋은 제품이라고 포장하는 거<br><b>부끄러움을 느끼셨으면 좋겠습니다..</b>
+            </p>
+            <p class="f_size_b c_r">
+                <b class="h_y">
+                    제발 순진한 소비자들 속이지 마세요.
+                </b>
+            </p>
+            <div><p class="hr_bar"></p></div>
+            <p>
+                <img src="./img/body02.png" alt="" width="100%">
+            </p>
+            <p>
+                나는 두 딸을 둔 <b>54세</b> 엄마이다.<br>
+                사진을 보면 알겠지만, <b>20대 같다는 소리를 정말 많이 들을 정도로</b><br>
+                동안 피부를 가진 것이 내 가장 큰 자랑거리 이다.
+            </p>
+            <p>
+                나도 원래부터 동안피부였던것은 아니다.<br>내가 주름을 전부 없애고, 탱탱한 피부를 가지게 된 비결은<br>'글루타치온' 덕분이다.
+            </p>
+            <p>
+                이미 많은 사람들이 알고 있겠지만<br>글루타치온은 노화의 원인인 '활성산소'를 없애주는 효능을 가지고 있고,<br>주름개선,피부미백에 특히 뛰어난 것으로 알려져 있다.
+            </p>
+            <p>
+                (피부과에서 처방하는 '백옥주사'의 성분도<br>글루타치온 이다.)
+            </p>
+            <p>
+                하지만 글루타치온이 좋다는 것이 알려지면서<br>돈냄새를 맡은 업체들이 개나소나 글루타치온을<br>팔기 시작했다.
+            </p>
+            <p>
+                지금 네이버에 글루타치온을 검색하면 25만개의 제품이 노출될 정도로<br>여러 제품들이 출시 되었다.
+            </p>
+
+            <p>
+                <img src="./img/body03.jpg" alt="" width="100%">
+            </p>
+            <p>
+                여기서 가장 큰 문제는,
+            </p>
+            <p>
+                <b class="c_r f_size_b">이 제품들 중 99%가 효과가 없는 가짜제품이라는 것이다.</b>
+            </p>
+            <p>
+                나는 글루타치온이 주름을 없애준다는 얘기를 들은 후<br>무려 100개 이상의 제품을 구매하여 섭취 하였으나<br><b>이 중 효과를 본 제품은 단 하나밖에 없었다.</b>
+            </p>
+
+            <p>
+                <img src="./img/body04.jpg" alt="" width="100%">
+            </p>
+            <p>
+                <b class="f_size_l c_r">내가 이글을 쓰게 된 이유.</b> <br><br><span class="f_size_b">수 많은 글루타치온 제품을 먹으면서<br>알게된 글루타치온 업계의<br>
+                <b class="c_r h_y"><u>허위 과장 광고</u></b>를 까발리기 위해서이다.</span>
+            </p>
+            <p>
+                많은 제품을 구매하다 보면,<br>웬만한 광고는 자연스럽게 필터링 되는데 <br> <b>점점 고도해지고 교묘해진 허위 광고에 당했다...</b>
+            </p>
+            <p>
+                그렇게 날린 돈이 천만원 이상이다..<br>나는 너무 자존심이 상했었다.
+            </p>
+            <p>
+                내가 먹은 제품들이 하나같이 효과가 없는 제품 뿐 이었어서<br>
+                이후에는 글루타치온에 대해 본격적으로 공부를 하기 시작했다.<br>
+                <b class="c_r">(효과 있는 제품을 찾겠다는 열망 하에..)</b>
+            </p>
+            
+            <p>
+                결국은 <span class="c_r">허위 광고 구별 방법을 찾아냈다!!</span><br>근본적으로는<br><b class="f_size_b">제대로 된 글루타치온 제품을 어떻게<br>찾아야 하는지를 끝내 알아냈다.</b>
+            </p>
+            <p>
+                <img src="./img/body04.png" alt="" width="100%">
+            </p>
+            <p>
+                지금은 이 방법으로 골라낸<br><b>글루타치온 제품</b>을 먹고 있다!<br><span class="c_g" style="text-decoration: line-through;">깔끔해진 내 피부ㅎㅎ</span>
+            </p>
+            <p>
+                좋은 글루타치온 제품으로 계속 관리하니<br>확실히 <b>탄력도 좋아지고 속광이 생겨<br>활기 넘치고 어려 보인다는 소리도 듣는다!!</b>
+            </p>
+            <p>
+                <img src="./img/body05.png" alt="" width="100%">
+            </p>
+            <p>
+                내 주변 친구들도 <b>나랑 같이 관리하여<br>완전 꿀 피부 됐다!!</b><br>너무 좋아해서 볼 때마다 뿌듯하다ㅎㅎ
+            </p>
+            <p>
+                솔직하게 이 정도면<br>내 방법은 정말 <b>대성공이라는 것을<br>증명한 셈이다.</b>
+            </p>
+            <p class="f_size_b c_r">
+                <b>
+                    이 글만 끝까지 읽는다면,<br>당신도 매년 피부에 쓸 돈<br><span class="h_y">100만원씩은 아낄 수 있다.</span>
+                </b>
+            </p>
+            <p>
+                <span class="c_r">허위, 과장 광고?</span><br>이젠 절대 속을 일 없다.
+            </p>
+            <p>
+                우리의 피부와 지갑을 위해<br><b>딱 5분만 투자하자</b>
+            </p>
+            <div style="text-align: center;"><p class="hr_bar_s"></p></div>
+            <p>
+                나는 이 글을 작성하기 위하여<br><b>글루타치온 SCI급 논문과<br>연구자료 등을&nbsp;참고</b> 하였으며<br>국내 글루타치온&nbsp;<b>소비자 실제&nbsp;후기<br>5천여개를 분석 하여 작성 하였다.</b>
+            </p>
+            <p>
+                지금 이순간에도 소비자들은<br>허위 과대광고 인지도 모른 채<br>잘못된 제품들을 구매하고 있기 때문에<br>반드시 이글을 필독하길 바란다.
+            </p>
+            <p>
+                <img src="./img/body06.png" alt="" width="100%">
+            </p>
+            <p>
+                <b class="h_y">“현대판 불로초”</b>라 불리고<br>
+                <b class="h_y c_r">백옥주사의 주 성분</b>으로 알려진<br>
+                <b class="c_r">글루타치온</b>이 전 세계적으로 각광받<br>
+                고 있으며, <b class="h_y">국내에서도 검색어 1위</b>를<br>
+                놓치지 않고 있을 정도로 <b class="c_r">엄청난 인기</b>를<br>
+                누리고 있는 상황이다.
+            </p>
+            <p class="width_60">
+                <img src="./img/body07.png" alt="" width="100%">
+            </p>
+            <p>
+                그러나 문제는<br>
+                급속도로 성장하는 이너뷰티 시장에<br>
+                비해 정작 <b>글루타치온 제품은<br></b>
+                <b class="c_r h_y">그 어디에서도 올바른 정보를 찾기가<br>
+                어렵다는 것이다.</b>
+            </p>
+            <p>
+                그래서 우리가 <b class="h_y">제품을 고를때<br>
+                더욱 더 신중을 기해야 하며<br></b>
+                우리가 <b>직접 꼼꼼하게 챙겨서<br>
+                많이 알고 있어야 한다.</b>
+            </p>
+            <p class="aa">
+                <img src="//my.newscover.co.kr/common/img/post_landing/quotes_01.png" alt="" style="width: 5%; margin-bottom: 10px; display: block;">
+                <span class="f_size_b">1. 2024 글루타치온 업계 실태와 진실</span>
+                <span class="hr_bar_l" style="display: block; margin: 20px 0;"></span>
+            </p>
+            <p>
+                <b class="f_size_l h_y">글루타치온 과대광고<br>할 말은 해야 되겠습니다.</b>
+            </p>
+            <p>
+                시중에 수 많은 글루타치온 제품들은<br>
+                <b class="c_r">품질이 떨어지는 저가의 원료를 사용<br></b>
+                하고, <b>현저히 낮은 순도와 함량의<br>
+                제품들</b>로 넘쳐나며, 불필요한 합성<br>
+                첨가물이 들어간 제품들이 넘쳐난다.
+            </p>
+            <p>
+                글루타치온 원료가 너무 비싸다 보니<br>
+                낮은 순도와 저가의 원료를 사용하고<br>
+                글루타치온 원료는 정말 눈꼽 만큼<br>
+                넣고서 <b>순도와 함량을 부풀려 허위<br>
+                과대 광고로</b> <b class="c_r h_y">소비자들을 기만하고<br>
+                속이며 많은 피해를 보고있는 실정이다.</b>
+            </p>
+            <p style="text-align: center;">
+                <img src="./img/body08.png" alt="" width="100%">
+                <span class="f_size_s c_g">현재까지도 허위 과대 광고로 피해를 보고있는 업계 현실</span>
+            </p>
+            <p>
+                <b>우리가 먹고 있는 글루타치온<br>실제 함량을 알고 있는가? </b>
+            </p>
+            <p>
+                소비자들은 글루타치온을 구매할때<br>
+                <b class="c_r">글루타치온 효모함량이나<br>
+                순도 만을 보고&nbsp;제품의 수준을<br>
+                잘못 이해할 수 있다.</b>
+            </p>
+            <p>
+                글루타치온은 겉보기 함량은<br>
+                전혀&nbsp;중요하지 않다.
+            </p>
+            <p>
+                업체들이 표면적으로 노출하는 건<br>
+                <b>효모추출물,&nbsp;건조효모 함량일 뿐이다.</b>
+            </p>
+            <p>
+                <b class="c_r">마치 글루타치온 순수함량인 것처럼<br>
+                광고하여,&nbsp;엄청 많이 들어간 것처럼<br>
+                광고를 한다.</b>&nbsp;<b>효모를&nbsp;글루타치온<br>
+                순수함량으로 보시면 절대 안된다.</b>
+            </p>
+            <p>
+                금에도&nbsp;14K, 18K, 24K&nbsp;순도가 있듯이<br>
+                <b>글루타치온에도 순도가 존재한다.</b>
+            </p>
+            <p>
+                <b>글루타치온 효모량(mg) X&nbsp;순도율(%)<br>
+                =&nbsp;&nbsp;글루타치온의 순수함량이 결정된다.</b>
+            </p>
+            <p>
+                아래 표와 같이<br>
+                글루타치온 제품을 고를 때<br>
+                효모함량과 순도에 의한&nbsp;<b>순수함량을<br>
+                구분할 줄 알아야 하며<br>
+                업체의 함량 꼼수에 넘어가면 안된다.</b>
+            </p>
+            <p>
+                <img src="./img/body09.png" alt="" width="100%">
+                <img src="./img/body10.png" alt="" width="100%">
+            </p>
+            <p>
+                특히나 시중에 가장 많이 판매되며, 광고도 가장 많이 하는<br>'필름형 글루타치온' 판매업체들은 
+            </p>
+            <p>
+                고객님들의 건강에는&nbsp;1도 생각<br>
+                없고&nbsp;<b>기업의 이윤만 생각하는 몰상식한<br>
+                악덕업체들이다.</b>
+            </p>
+            <p>
+                필름 제품 순수함량을<br>
+                계산해 보면&nbsp;필름<b> 1장당 순수함량이<br>
+                65mg을 넘는 제품을 찾기가 어렵다.<br></b>
+                글루타치온은&nbsp;쥐똥 만큼 넣고 고함량<br>
+                이라며 미백 효과를 운운하고 있다.
+            </p>
+            <p>
+                <b>“글루타치온 함량을&nbsp;10배 올렸다”<br></b>
+                이렇게 대문짝 만하게 광고하는데,<br>
+                기존 필름 순수함량이<b>&nbsp;15mg</b>&nbsp;이었는데<br>
+                <b>10배 올려봤자 고작&nbsp;150mg</b>&nbsp;이다.
+            </p>
+            <p>
+                이 모든게 함량 꼼수<br>
+                <b class="c_w h_b">유통사들의 마케팅 전략</b>이다.<br>
+                이런 제품들에 더 이상 속으면 안된다.<br>
+                <b class="c_r">소비자들은 바보도 호갱도 아니다!</b>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body11.png" alt="" width="100%">
+                <span class="f_size_s c_g">출처 : 정세운 약사</span>
+            </p>
+
+            <p class="aa">
+                <img src="//my.newscover.co.kr/common/img/post_landing/quotes_01.png" alt="" style="width: 5%; margin-bottom: 10px; display: block;">
+                <span class="f_size_b">2. 진짜 효과있는 글루타치온은 무엇일까?</span>
+                <span class="hr_bar_l" style="display: block; margin: 20px 0;"></span>
+            </p>
+            <p>
+                내가 100여개의 글루타치온 제품을 먹으면서<br>대부분의 제품에서 <b>효과를 보지 못했던 이유를 알려 주겠다.</b>
+            </p>
+            <p>
+                <b>아래표는 국내에서 가장 많이 팔리는 <br>글루타치온 제품 TOP5를 정리한 표 이다.</b>
+            </p>
+            <p>
+                <b class="f_size_b">글루타치온 필름 제품 비교분석표</b><br>
+                <img src="./img/body12.png" alt="" width="100%">
+            </p>
+            <p>
+                <b>위 이미지 속 빨간 테두리 안의<br>수치가 필름 제품들의&nbsp;순수함량이다.<br>65mg&nbsp; 65mg&nbsp; 65mg&nbsp;&nbsp;65mg&nbsp; 50mg</b>
+            </p>
+            <p>
+                <b>지금까지 가장 많이 판매된<br>
+                글루타치온 필름 제품들의 순수함량이<br>
+                최대&nbsp;65mg&nbsp;밖에 안들어&nbsp;있다.</b>
+            </p>
+            <p>
+                <b>가장 많이 팔린 제품들이 이정도 인데<br>
+                다른 제품들은 어떻겠는가?</b>
+            </p>
+            <p>
+                글루타치온을 섭취하여 효과를 보기 위해선<br>
+                하루 <b>체내 흡수량이 최소 250mg</b>은 되야 하는데<br>
+                일반 글루타치온 제품으로 <br>
+                <b class="c_b"><u>이를 채우기 위해선 1500mg을 섭취</u></b> 하여야 한다.
+            </p>
+            <p>
+                필름형 글루타치온의 경우 하루에 10개씩 먹어야<br>일일 권장량이 겨우 달성 된다는 것이다.
+            </p>
+            <p>
+                이게 말이 되는가? <br>
+                가격도 가격이고 하루에 제품을 10개씩 챙겨 먹으려면<br>
+                여간 번거로운게 아니다.
+            </p>
+            <p>
+                글루타치온이 이러한 흡수율의 문제를 가지고 있었기 때문에<br>
+                해외에서도 이를 보완하기 위한 시도가 있었는데,<br>
+                <b>그렇게 나오게 된게 <u class="c_b">리포좀 글루타치온</u> 이다.</b>
+            </p>
+            <p>
+                <img src="./img/body13.png" alt="" width="100%">
+            </p>
+            <p>
+                리포좀 공법은&nbsp;<b>해외에서&nbsp;60여년간<br>
+                연구되어 온&nbsp;제형기술로&nbsp;가장 성공적인<br>
+                물질 운반 시스템으로&nbsp;체내 높은 흡수력<br>
+                을 위한 기술력</b>의 정점으로 영양분을<br>
+                세포까지 도달하는 안정적인 물질 운반<br>
+                시스템이다.
+            </p>
+            <p>
+                과학적으로 증명된 리포좀 공법은<br>
+                <b>세포 내 글루타치온 유지를 위한<br>
+                기질을 제공하는데&nbsp;<u class="c_r">일반 글루타치온<br>
+                대비&nbsp;100배 강력한 효과</u>가 있음</b>이<br>
+                증명되었다.
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body14.png" alt="" width="100%">
+                <span class="f_size_s c_g">[출처1] Neurochem Res. 2010 Oct;35(10):1575-87.doi: 10.1007/s11064-010-0217-0. Epub 2010 Jun 10. Liposomal-glutathione provides maintenance of intracellular glutathione and neuroprotection in mesencephalic neuronal cells. Gail D Zeevalk, Laura P Bernard, FT Guilford / [출처2] Eur J Clin Nutr.2018 January : 72(1): 105-111. doi:10.1038/ejcn.2017.132.Oral supplementation with liposomal glutathione elevates body stores of glutathione and markers of immune function</span>
+            </p>
+            <p>
+                일반 글루타치온과 흡수율이 무려 100배 차이가 나기 때문에<br>
+                리포좀 공법으로 제조되지 않은 글루타치온 제품은<br>
+                다른 요소들을 따져볼 필요도 없이 과감하게 거르면 된다.
+            </p>
+            <p>
+                <b class="c_r f_size_b"><u>무조건 리포좀 글루타치온 제품을 골라라.</u></b>
+            </p>
+
+            <p class="aa">
+                <img src="//my.newscover.co.kr/common/img/post_landing/quotes_01.png" alt="" style="width: 5%; margin-bottom: 10px; display: block;">
+                <span class="f_size_b">3. 제품 선택시 반드시 알아야 할 사항</span>
+                <span class="hr_bar_l" style="display: block; margin: 20px 0;"></span>
+            </p>
+            <p>
+                <b class="c_r h_y">1) 순도의 중요성에 대하여 주목하라</b>
+            </p>
+            <p>
+                위에서도 말했듯이 <b>순도는<br>글루타치온 성분이 차지하는 비율</b>을<br>의미한다.
+            </p>
+            <p>
+                국내 판매되고 있는 제품의 순도는<br><b class="c_r h_y">2.5%부터 90%까지 수 많은<br>제품</b>들이 넘쳐난다.
+            </p>
+            <p>
+                <b>고순도의 글루타치온 일수록 원료</b>의<br>
+                <b class="c_r h_y">품질면에서 불순물이나 다른 화합물의<br>
+                함량이 매우 낮으며,</b> <b>안전성 면에서도<br>
+                높은 순도의 글루타치온을 선택하는<br>
+                것이 매우 중요하다.</b>
+            </p>
+            <p>
+                <b class="c_r h_y">결론적으로 제품 선택시 90% 고순도의<br>제품을 섭취하여야 한다.</b>
+            </p>
+            <div style="margin: 0 auto; width:50%" "="">
+                <img src="//my.newscover.co.kr/common/img/post_landing/line_m.png" alt="" width="50%">
+            </div>
+            <p>
+                <b class="c_r h_y">2) 글루타치온 순수함량에 주목하라</b>
+            </p>
+            <p>
+                아래 논문 및 연구결과에 의하면<br>
+                <b class="c_r h_y">글루타치온 하루 섭취량 500mg</b>을<br>
+                섭취하였을때 긍정적인 좋은 결과를<br>
+                가져왔음을 확인 할 수 있다.<br>
+                <span class="f_size_s c_g">(아래 논문 및 연구결과에 대한 내용입니다.)</span>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body15.png" alt="" width="100%">
+                <span class="f_size_s c_g">[출처] J Dermatolog Treat. 2012 Apr;23(2):97-102. doi: 10.3109/09546631003801619.Epub 2010 Jun 5. Glutathione as an oral whitening agent: a randomized, double-blind, placebo-controlled study. Nutthavuth Arjinpathana Pravit Asawanonda.</span>
+            </p>
+
+            <p>
+                또한, 아래 논문의 연구결과에 의하면<br>
+                글루타치온은<br>
+                <b class="c_r h_y">섭취기간이 길고, 섭취함량이 높을수록<br>
+                혈중 글루타치온 농도가 높아진다는 점</b><br>
+                을 확인 할 수 있다.<br>
+                <span class="f_size_s c_g">(아래 논문 및 연구결과에 대한 내용입니다.)</span>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body16.png" alt="" width="100%">
+                <span class="f_size_s c_g">출처 : Randomized controlled trial of oral glutathione supplementation on body stores of glutathione John P Richie Jr, Sailendra Nichenametla, Wanda Neidig, Ana Calcagnotto, Jeremy S Haley, Todd D Schell, Joshua E Muscat. Eur J Nutr. 2015 Mar;54(2):251-63.</span>
+            </p>
+
+            <p>
+                시중에 <b class="h_y">리포좀 글루타치온 제품</b>의<br>
+                <span class="h_y"><b class="c_r">1포당 순수함량이</b> <b>500mg</b> <b class="c_r">넘는 제품은<br>
+                손에 꼽을 정도</b></span>이다.<br>
+                간혹 2포당 함량을 적어놓은 제품과<br>
+                1박스 총 합계 함량을 적어놓은 제품도<br>
+                있으니 주의하여야 한다.
+            </p>
+
+            <div style="margin: 0 auto; width:50%" "="">
+                <img src="//my.newscover.co.kr/common/img/post_landing/line_m.png" alt="" width="50%">
+            </div>
+
+            <p>
+                <b class="c_r h_y">3) 시너지 원료에 주목하라</b>
+            </p>
+            <p>
+                <b class="c_r">피부건강 이너뷰티의 신의 한수</b>는<br>
+                <b class="h_y">혁신적인 먹는 레티놀(=레티노이드)<br></b>
+                자연에서 찾은 <b class="c_grn">모링가잎추출물<br>
+                식물성 레티놀(비타민A)</b>을 내 몸에 직접<br>
+                섭취하여, <b>환하고 생기있는 일상을<br>
+                더할 수 있다.</b>
+            </p>
+            <p>
+                아래 논문의 연구결과에 의하면<br>
+                <b class="c_grn">식물성 레티놀</b>은 <b class="c_r h_y">피부 노화방지에<br>
+                효과적이며 피부탄력, 피부개선,<br>
+                피부주름이 개선되었음</b>을 확인할<br>
+                수 있다.<br>
+                <span class="f_size_s c_g">(아래 논문 및 연구결과에 대한 내용입니다.)</span>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body17.png" alt="" width="100%">
+                <span class="f_size_s c_g">[출처] Dermatol Ther (Heidelb) . 2023 Oct;13(10):2299-2317. doi: 10.1007/s13555-023-01004-z. Epub 2023 Aug 24. Natural Retinol Analogs Potentiate the Effects of Retinal on Aged and Photodamaged Skin: Results from In Vitro to Clinical Studies.</span>
+            </p>
+            <p>
+                대표적인 항산화 시너지 원료로<br>
+                <b class="h_y">비타민C</b>는 건강한 성인의 <b class="h_y">적혈구 내<br>
+                글루타치온 수준을 효과적으로<br>
+                증가시키며</b> <b class="c_r">글루타치온 재생을 촉진<br>
+                하고, 합성</b>에 반드시 필요한 성분이다.
+            </p>
+            <p>
+                <b class="h_y">한가지 더 중요한 점</b>은 비타민C도<br>
+                <b class="c_r h_y">리포좀 비타민C을 섭취하였을때<br></b>
+                일반 비타민C 보다 <b class="c_r h_y">흡수율이 177%<br>
+                더 높게 증가</b>하였으며 <b>생체이용률을<br>
+                더욱더 증대</b>시킨다는 연구결과가 있다.<br>
+                <span class="f_size_s c_g">(아래 논문 및 연구결과에 대한 내용입니다.)</span>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body18.png" alt="" width="100%">
+                <span class="f_size_s c_g">[출처] Evaluation and clinical comparison studies on liposomal and non-liposomal ascorbic acid (vitamin C) and their enhanced bioavailability Sreerag Gopi, Preetha Balakrishnan, J Liposome Res. 2021 Dec;31(4):356-364. doi: 10.1080/ 08982104.2020.1820521.Epub 2020 Oct 6.</span>
+            </p>
+
+            <p>
+                <b class="h_y">L-시스테인</b>은 생체 내에서<br>
+                <b>글루타치온 구성성분으로<br>
+                대사에 중요한 역할</b>을 한다.<br>
+                <b class="c_r h_y">멜라닌 감소, 합성 억제, 색소 침착<br>
+                조절에 유용하여 시너지 원료로<br></b>
+                반드시 필요한 성분이다.<br>
+                <span class="f_size_s c_g">(아래 논문 및 연구결과에 대한 내용입니다.)</span>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body19.png" alt="" width="100%">
+                <span class="f_size_s c_g">출처 : Identification of L-Cysteinamide as a Potent Inhibitor of Tyrosinase-Mediated Dopachrome Formation and Eumelanin Synthesis. Hyun Kyung Lee, Jae Won Ha, Yun Jeong Hwang, Yong Chool Boo, 2021 Jul 27;10(8):1202. doi:10.3390/antiox10081202.</span>
+            </p>
+
+            <p>
+                마지막으로, 비타민E와 셀레늄도<br>
+                <b>글루타치온 합성을 증가</b>시키며<br>
+                <b class="c_r h_y">글루타치온 재생의 주된 공급원</b>으로<br>
+                <b>반드시 필요한 시너지 성분이다.<br></b>
+                <span class="f_size_s c_g">(아래 논문 및 연구결과에 대한 내용입니다.)</span>
+            </p>
+
+            <p style="text-align: center;">
+                <img src="./img/body20.png" alt="" width="100%">
+                <span class="f_size_s c_g">▶ 적혈구 글루타치온은 대조군보다 치료 대상에서 유의하게 높았습니다. 글루타치온 합성 증가. 출처 : Vitamin E and red blood cell glutathione C Costagliola, T Libondi, M Menzione, E Rinaldi, G Auricchio, Metabolism. 1985 Aug;34(8):712-4. doi:10.1016/0026-0495(85)90019-8.</span>
+            </p>
+            <p style="text-align: center;">
+                <img src="./img/body21.png" alt="" width="100%">
+                <span class="f_size_s c_g">▶ 셀레늄은 글루타치온 효소 활성을 증가시킨다. 출처 : Selenium-Enriched Foods Are More Effective at Increasing Glutathione Peroxidase (GPx) Activity Compared with Selenomethionine: A Meta-Analysis Emma N. Bermingham, John E. Hesketh, Bruce R. Sinclair, John P. Koolaard, andNicole C. Roy, Nutrients. 2014 Oct; 6(10):4002–4031.</span>
+            </p>
+            <p>
+                <img src="./img/body22.png" alt="" width="100%">
+            </p>
+
+            <p class="aa">
+                <img src="//my.newscover.co.kr/common/img/post_landing/quotes_01.png" alt="" style="width: 5%; margin-bottom: 10px; display: block;">
+                <span class="f_size_b">4. 최종 결론, 논문과 연구결과의 기반<br>으로 만들어진 제대로 된 글루타치온</span>
+                <span class="hr_bar_l" style="display: block; margin: 20px 0;"></span>
+            </p>
+
+            <p>
+                지금까지 내가 글루타치온 업계에서<br>말하기 힘든 엄청난 비밀들을 공개했다.
+            </p>
+            <p>
+                지금까지 얘기했던 내용들을 정리하자면,
+            </p>
+            <p>
+                <b>
+                    <span class="h_y c_r">1. 리포좀 글루타치온 &amp;<br>리포좀 비타민C 제품인지?</span><br>
+                    ▶세포까지 도달하여 흡수되는 리포좀 공법<br>
+                    일반 글루타치온 대비 100배 강력한 효과<br>
+                    최대 40% 증가한 체내 저장 수치<br>
+                    ▶일반 비타민C 대비 흡수율 177% 더 증가
+                </b>
+            </p>
+            <p>
+                <b>
+                    <span class="h_y c_r">2. 순도율 90%이상 고순도 제품인지?</span><br>
+                    ▶글루타치온 순도 2.5%~90%<br>품질, 안전성, 효과 등에 영향을 준다.
+                </b>
+            </p>
+            <p>
+                <b>
+                    <span class="h_y c_r">3. 순수함량 500mg 고함량 제품인지?</span><br>
+                    ▶반드시 1포 기준 인지 확인하세요!
+                </b>
+            </p>
+            <p>
+                <b>
+                    <span class="h_y c_r">4. 이너뷰티 원료 및 활성 시너지<br>원료가 주원료로 함유된 제품인지?</span><br>
+                    <b class="c_b">▶반드시 같이 들어 있어야 하는 영양소<br></b>
+                    ▶비타민C, 식물성 레티놀 (비타민A)<br>
+                    L-시스테인, 비타민E, 셀레늄
+                </b>
+            </p>
+            <p>
+                <b>
+                    <span class="h_y c_r">5. 불필요한 첨가물을 사용하였는지?</span><br>
+                    ▶인체 유해성 논란! 부형제, 아스파탐<br>
+                    수크랄로스, 포도당, 착색료, 보존료<br>
+                    화학첨가물을 사용하였는지?
+                </b>
+            </p>
+            <p>
+                <b>
+                    <span class="h_y c_r">6. 제품 가격은 합리적인지?</span><br>
+                    ▶순수 글루타치온 함량당 가격과<br>
+                    이너뷰티 원료 및 핵심 시너지 원료까지<br>
+                    포함 했을때 합리적인 가격인지?
+                </b>
+            </p>
+
+            <div style="margin: 0 auto; width:50%" "="">
+                <img src="//my.newscover.co.kr/common/img/post_landing/line_m.png" alt="" width="50%">
+            </div>
+
+            <p>
+                위의 <b>기준들을 바탕</b>으로<br>비교 분석했던 <b>수많은 제품들의</b> 데이터 중<br><b class="h_y">성분 / 함량 / 섭취 타입 / 시너지 원료</b>를<br>비교해가며 <b>일부를 표로 만들었다.</b><br><b class="c_r">(* 2024년 12월 업데이트)</b>
+            </p>   
+
+            <p style="text-align: center;">
+                <img src="./img/body24.png" alt="" width="100%">
+                <span class="c_g f_size_s" style="display: block;">광고글이 아니라 제품명은 표시하지 않습니다.</span>
+            </p>
+            <p>
+                기준에 맞춰 정리했을 때,<br><b class="c_r">글루타치온 선택 기준에 제일 적합한 제품은<br>N사 글루타치온이었다.</b>
+            </p>
+            <p>
+                기준에 상당히 <b>부합하지 못하는 제품</b>들이<br><b>많아도 정말 너무 많았다...</b><br>정말 이래도 되는 건가...
+            </p>
+            
+            <p class="f_size_b">
+                <u><i>꼭 N사 제품이 아니어도 된다.</i></u>
+            </p>
+            <p>
+                오늘 내가 적은 내용들을 토대로<br><b>제대로 된 글루타치온 제품</b>을 고를 수 있으면 된다.
+            </p>
+
+            <div style="text-align: center;"><p class="hr_bar_s"></p></div>
+
+            <p class="f_size_l c_r"><b>**긴급 추가**</b></p>
+            <p class="f_size_b c_r"><b>쪽지/메일로 제품 문의 그만 주세요.</b></p>
+            <p>
+                어떤 제품이 좋은 제품인지<br>문의가 <b>하루에도 수백 통씩</b><br>오고 있는 상황입니다.
+            </p>
+                        
+            <p>
+                <img src="./img/body25.png" alt="" width="100%">
+            </p>
+            <p>
+                처음에는 <b>모두 답장 드리고자 했으나,</b><br>이렇게 갑자기 문의가 많아지다 보니<br><b>
+                    문의에 업무 메일이 밀려서<br>일상생활도 어려울 정도입니다...</b><br><span class="f_size_s c_g">(댓글도 제품 문의가 너무 많아 닫아두었습니다ㅠㅠ)</span>
+            </p>
+            <p>
+                이 글은 <span class="h_y">단순 정보성 글</span>로 홍보처럼 보일까 봐<br><b>특정 제품명은 언급하지 않으려고 했는데</b><br><b class="h_y">모두 답변을 드릴 수 없어<br>부득이하게 하단에 링크 기재해 두겠습니다...</b>
+            </p>
+            <p>
+                다만, 해당 업체에서 <b>내려달라는 요청을 주시면</b><br>링크 삭제할 수밖에 없는 점<br>양해 부탁드리겠습니다.
+            </p>
+            <p>
+                <b class="f_size_b highlighter c_r">* 1순위 - N사 글루타치온</b><br>
+                <a href="https://smartstore.naver.com/natureselect/products/10856698181" style="color: #608cba; font-weight: 200;word-break: break-all;"><u>https://smartstore.naver.com/natureselect/products/10856698181</u></a><br><span>(품절 및 완판 시 링크 삭제될 수 있습니다.)</span><br>
+            </p><br><br>
+            <p>
+                <b class="f_size_b highlighter c_r">* 2순위 - E사 글루타치온</b><br>
+                <a href="https://bit.ly/4bjAWvN" style="color: #608cba; font-weight: 200; text-decoration: line-through;"><u>https://bit.ly/4bjAWvN</u></a><br><span class="c_g">(판매 종료됐다고 하네요..
+                    저도 이유는 잘 모르겠습니다..)</span><br>
+            </p><br><br>
+
+            <p><span class="hr_bar"></span></p>
+
+            <p class="f_size_s" style="color: #9c9c9c;font-weight: 200; word-break: break-all;">
+                참고 문헌<br>
+                S Yamamoto · 2016 ,Biol. Pharm. Bull. 39(3): 428-434 (2016) chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.jstage.jst.go.jp/article/bpb/39/3/39_b15-00624/_pdf
+                <br><br>
+                한국식품과학회지 = Korean journal of food science and technology, v.50 no.4, 2018년, pp.420 - 429  김애향 (아미코젠(주) 바이오텍 R&amp;D 센터) ,  김이수 (아미코젠(주) 바이오텍 R&amp;D 센터) ,  박철 (아미코젠(주) 바이오텍 R&amp;D 센터) ,  신용철 (아미코젠(주) 바이오텍 R&amp;D 센터) ,  하민우 (아미코젠(주) 바이오텍 R&amp;D 센터)
+                <br><br><br>
+            </p>
+
+        </div>
+
+        <div class="profile" style="display: flex; flex-direction: column;">
+                        <div class="pf_main" style="display: flex; flex-direction: column; text-align: center; padding: 2% 0;">
+                            <div class="pf_img"><img src="./img/user.png" alt="" style="width: 60px; margin-right: 10px;"></div>
+                            <div class="pf_name"><b class="f_size_b">청담동 피부미인</b><br><span class="c_g f_size_s">팔로워 219</span></div>
+                        </div>
+                        <div style="color: #353535; padding: 2% 20%; text-align: center;">
+                            광고 및 협찬은 일절 사양합니다.
+                        </div>
+                    </div><div class="ver_mobile">
+                    </div><div style="border-bottom: 1px solid #d7d7d7; overflow: hidden; margin-top: 30px; font-size: 15px; box-sizing: border-box;  padding: 0 2%; padding-bottom: 12px; margin-left: 10px; margin-right: 10px;">
+                        <div class="re_txt" style="display: inline-block;">
+                            <a style="font-weight: bold;display: inline-block;">댓글</a>
+                        </div>
+
+                        <span style="color: #555; float: right; font-size: 18px;">ⓘ</span>
+                    </div><div class="ver_mobile">
+                        </div><table style="width: 100%;">
+            <tbody>
+                <tr>
+                    
+
+
+                </tr>
+                <tr>
+                    
+                    
+                </tr>
+                <!--댓글-->
+                <tr>
+                    <td style="line-height:24px">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <!-- 댓글추가 -->
+                                    <tr>
+                                        <td style="border-bottom:1px solid #d7d7d7; padding:10px">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                    <tr>
+                                                        
+                                                        <td style="display: flex; flex-direction: column; color: #9c9c9c; text-align: center;padding: 20px 0;">
+                                                            <img src="./img/warning.png" alt="" style="width: 8% !important;">
+                                                            <p style="margin-top:20px;">작성자가 댓글을 허용하지 않은<br>포스트입니다.</p>
+                                                        
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!--댓글2s-->
+
+                                </tbody>
+                            </table>
+                        </td>
+                    
+                </tr>
+                
+                <!--댓글-->
+             
+                
+            </tbody>
+        </table>
+      
+
+    </div>
+
     
-</body>
-</html>
+
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<!--<script type="text/javascript" src="//simg.imadrep.co.kr/js/jquery.js"></script>-->
+<script type="text/javascript" src="//simg.imadrep.co.kr/js/jquery.jscroll.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+	$('#autoScroll').jscroll({
+		autoTrigger: true,
+		loadingHtml: '<div class="next" style="text-align:center;padding-top:15px;"><img src="/common/img/loading.gif" alt="Loading" style="width:8%; margin:0 auto;" /></div>',
+		nextSelector: 'a.nextPage'
+    });
+});
+
+</script>
+<style type="text/css">
+	#autoScroll{}
+	.banner_box{}
+</style>
+
+
+	<!-- <div class="wrap" width="100%" style="max-width: 600px; margin: 0 auto;margin-top:15px;font-size:20px;padding-bottom:10px;font-weight:bold;" >
+		<a href="http://www.news-cast.co.kr/" target="_blank" style="color:#0000ff;">※ 실시간뉴스 바로보기(click) </a>
+	</div> -->
+
+	
+
+
+<div style="all: initial !important"></div></body></html>
